@@ -1,0 +1,8 @@
+{
+	"mcpServers": {
+		"math": {
+			"command": "bun",
+			"args": ["run", "server.ts"]
+		}
+	}
+}
