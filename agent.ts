@@ -3,7 +3,7 @@ import { experimental_createMCPClient as createMcpClient } from "ai";
 
 const mcpClient = await createMcpClient({
 	transport: new StreamableHTTPClientTransport(
-		new URL("http://localhost:8000/mcp"),
+		new URL("http://localhost:5050/mcp"),
 		{
 			requestInit: {
 				headers: {
